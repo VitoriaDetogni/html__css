@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "bloody";
+    src: url("../fontes/Bloody\ Office.otf");
+}
+h1{
+    font-family: "bloody";
+    font-size: 60px;
+    color: rgb(119, 14, 14);
+}
+#container6{
+    width: 1024px;
+    height: 2500px;
+    /* background-color: rgb(68, 75, 72); */
+    background-color: rgb(19, 18, 18); 
+    
+    margin: auto;
+}
+.circle-box div{
+    padding: 0 40px; 
+  }
+.progressbar-text{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+p{
+    font-size: 20px;
+    color: #fff;
+}
+@font-face {
+    font-family: "zoombie";
+    src: url("../fontes/TALIWANGKE.ttf");
+}
+.h2{
+    color: darkred;
+        font-family: "zoombie";
+        font-size: 50px;
+    
+}
+/* Botão 3D */
+.btn-3d{
+    position: relative;
+    top: -6px;
+    border: 0;
+    transition: all 40ms linear;
+    margin-top: 10px;    
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.btn-3d:active:focus,
+.btn-3d:focus:hover,
+.btn-3d:focus {
+    -moz-outiline-style: none;
+    outline: medium none;
+}
+.btn-3d:active,
+.btn-3d.active {
+    top: 2px;
+}
+
+.btn-3d.btn-primary {
+    box-shadow: 0 0 0 1px rgb(88, 15, 15) insert, 0 0 0 2px rgba(255,255,255,0.15) insert, 0 8px 0 0 rgb(46, 4, 4), 0 8px 8px 1px rgb(179, 17, 17);
+    background-color: rgb(128, 31, 31);
+}
+.btn-3d.btn-primary:active,
+.btn-3d.btn-primary.active {
+    box-shadow: 0 0 0 1px rgb(88, 15, 15) insert, 0 0 0 1px rgba(255,255,255,0.15) insert, 0 1px 3px rgba(0, 0, 0, 0.3);
+    background-color: rgb(128, 31, 31);
+}

@@ -1,0 +1,98 @@
+#container{
+    width: 1024px;
+    height: 2150px;
+    /* background-color: rgb(68, 75, 72); */
+    background-color: rgb(19, 18, 18); 
+    
+    margin: auto;
+}
+#menu-h{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+  }
+  #menu-h li{
+    font-family: "glimmer";
+    font-size: 15px;
+    display: inline;
+  }
+  #menu-h li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.5s;
+  }
+  #menu-h li a:hover{
+    background-color: rgba(255, 0, 0, 0.507);
+    transform: scale(1.2);
+  }
+#a{
+    padding: 0 5px;
+}
+body{
+    background-image: url(../imagens/f9a98ff98167367f51f30db94eb85514.jpg);
+    
+}
+
+/* Dados */
+
+.circle-box div{
+  padding: 0 40px; 
+}
+.progressbar-text{
+  font-weight: bold;
+  font-size: 32px;
+}
+#data-area{
+  color: #fff;
+  text-align: center;
+  font-size: 26px;
+  margin-top: 20px;
+}
+@font-face {
+  font-family:"glimmer" ;
+  src: url("../fontes/Demode.ttf");
+}
+.letra{
+  font-family:"glimmer" ; 
+  color: rgb(248, 230, 230);
+  
+}
+@font-face {
+  font-family:"TALIWANGKE";
+  src: url("../fontes/TALIWANGKE.ttf");
+}
+h2{
+  font-family:"TALIWANGKE";
+  color: rgb(255, 246, 246);
+  font-size: 50px;
+}
+hr{
+  color: red;
+}
+.texto_loja{
+  font-family:"TALIWANGKE";
+  font-size: 37px;
+}
+.titulo{
+  font-family: "glimmer";
+  font-size: 25px;
+}
+.margem{
+  margin-left: 150px;
+  margin-top: 60px;
+}
+@font-face {
+  font-family: "barista";
+  src: url("../fontes/The\ Barista.ttf");
+}
+h4{
+  font-family: "barista";
+  font-size: 25px;
+}
+h5{
+  font-family: "barista";
+  font-size: 30px;
+}

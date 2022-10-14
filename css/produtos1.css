@@ -1,0 +1,67 @@
+.color{
+    background-color: blueviolet;
+    height: 500px;
+}
+.color1{
+    background-color: rgb(36, 92, 44);
+    height: 500px;
+}
+.color2{
+    background-color: rgb(170, 59, 120);
+    height: 500px;
+}
+
+/* Botão 3D */
+.btn-3d{
+    position: relative;
+    top: -6px;
+    border: 0;
+    transition: all 40ms linear;
+    margin-top: 10px;    
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.btn-3d:active:focus,
+.btn-3d:focus:hover,
+.btn-3d:focus {
+    -moz-outiline-style: none;
+    outline: medium none;
+}
+.btn-3d:active,
+.btn-3d.active {
+    top: 2px;
+}
+
+.btn-3d.btn-primary {
+    box-shadow: 0 0 0 1px rgb(88, 15, 15) insert, 0 0 0 2px rgba(255,255,255,0.15) insert, 0 8px 0 0 rgb(46, 4, 4), 0 8px 8px 1px rgb(179, 17, 17);
+    background-color: rgb(128, 31, 31);
+}
+.btn-3d.btn-primary:active,
+.btn-3d.btn-primary.active {
+    box-shadow: 0 0 0 1px rgb(88, 15, 15) insert, 0 0 0 1px rgba(255,255,255,0.15) insert, 0 1px 3px rgba(0, 0, 0, 0.3);
+    background-color: rgb(128, 31, 31);
+}
+@font-face {
+    font-family: "chistoso";
+    src: url("../fontes/Chistoso-Regular.ttf");
+}
+.h2{
+    font-family: "chistoso";
+    color: brown;
+    font-size: 47px;
+}
+.h3{
+    font-family: "chistoso";
+    color: rgb(104, 99, 99);
+}
+.box{
+    width:1024px;
+    height: 200px;
+    background-color: rgb(19, 18, 18);
+}
+#container4{
+    width: 1024px;
+    height: 2050px;
+    background-color: rgb(19, 18, 18); 
+    margin: auto;
+}

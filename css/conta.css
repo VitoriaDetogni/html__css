@@ -1,0 +1,76 @@
+.a{
+    width: 300px;
+}
+.letra{
+    color: white;
+}
+#d{
+    color: white;
+}
+.container1{
+    width: 1024px;
+    height: 1700px;
+    /* background-color: rgb(68, 75, 72); */
+    background-color: rgb(19, 18, 18); 
+    
+    margin: auto;
+}
+.cadastro{
+    font-family: "barista";
+    color: rgb(112, 30, 30);
+    font-size: 50px;
+}
+.conta{
+    background-color: rgb(19, 18, 18);
+    border: 2px solid  rgb(19, 18, 18);
+}
+
+#b{
+    box-sizing: 3px red;
+    background-color: #000;   
+}
+.b1{
+    /* background-color: aquamarine;  */
+    height: 500px;
+}
+.b2{
+    height: 500px;
+}
+
+@font-face {
+        font-family: "bloody";
+        src: url("../fontes/Bloody\ Office.otf");
+}
+
+@font-face {
+    font-family: "barista";
+    src: url("../fontes/The\ Barista.ttf");
+}
+h1{
+    font-family: "bloody";
+    font-size: 60px;
+    color: rgb(119, 14, 14);
+}
+hr{
+    color: red;
+}
+h2{
+    font-family: "barista";
+    color: rgb(112, 30, 30);
+}
+h3{
+    font-family: "barista";
+    color: rgb(190, 113, 113);
+}
+@font-face {
+    font-family: "zoombie";
+    src: url("../fontes/zoombieland.ttf");
+}
+h4{
+    margin: 50px;
+    font-family: "zoombie";
+    font-size: 30px;
+}
+.fundo{
+    background-image: url("../imagens/arame.png");
+}
